@@ -29,7 +29,7 @@
 import UIKit
 import FlexColorPicker
 
-let radialHuePaletteStripWidth: CGFloat = 28
+let radialHuePaletteStripWidth: CGFloat = 4
 
 @IBDesignable
 class RadialHueControl: ColorPaletteControl {

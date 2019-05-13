@@ -39,4 +39,12 @@ class CustomControlsDemoViewController: CustomColorPickerViewController {
             colorPicker.controlDidSet(newValue: saturationUISlider, oldValue: oldValue)
         }
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        //self.selectedColor = .black
+    }
+    override func viewDidLoad() {
+        
+        
+    }
 }
